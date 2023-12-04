@@ -1,0 +1,21 @@
+ul {
+    /* Remove bullets */
+    list-style-type: none; 
+    /* Add solid border around each Tweet component */
+    border-style: solid;
+    border-color: lightgrey;
+    /* Rounds the corners of an element's outer border edge. */
+    border-radius: 10px;
+    /* Increase font size */
+    font-size: 30px;
+    /* allows for specifying space between every child via gap. There's no need to reference the "last-child" */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+  }
+
+
+  /* Sources: 
+  https://stackoverflow.com/questions/11903773/add-space-between-li-elements
+  w3schools 
+*/
